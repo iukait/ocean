@@ -241,7 +241,7 @@ img {
 
 /* offer */
 .offer-container,
-.moments-container {
+.moment-container {
     width: 1041px;
     margin: 0 auto;
     margin-bottom: 33px;
@@ -376,6 +376,7 @@ img {
 .moments {
     color: #FFFFFF;
     width: 1561px;
+    padding-bottom: 26px;
     background: linear-gradient(102.21deg, rgba(0, 31, 39, 0.87) -3.5%, rgba(71, 96, 132, 0.46) 66.5%, rgba(109, 131, 182, 0.37) 86.52%, rgba(146, 165, 231, 0) 105.66%);
 }
 
@@ -383,11 +384,23 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 33px;
+    padding-left: 3px;
+    margin-bottom: 49px;
 }
 
-.moments-title {}
+.moments-title {
+    padding-top: 56px;
+    padding-left: 3px;
+}
 
-.moments-link-all {}
+.moments-link-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20AFF7;
+
+}
 
 .moments-desc {
     font-size: 16px;
@@ -396,7 +409,8 @@ img {
 
 .moments-list {
     display: flex;
-    column-gap: 12px;
+    column-gap: 18px;
+    padding-left: 3px;
 }
 
 .moments-item {
@@ -410,6 +424,7 @@ img {
 .moments-desc-wrapper {
     background: #166064;
     border-radius: 0px 0px 4px 4px;
+    padding: 14px 21px;
 }
 
 .moments-link {
@@ -419,6 +434,131 @@ img {
 .moments-item-desc {
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
+    padding-bottom: 9px;
+}
+
+.moments-category {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #20AFF7;
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+.moments-subtitle {
+    font-family: 'Source Serif Pro';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* reviews */
+.reviews {
+    color: #FFFFFF;
+    background: url("images/review.jpg") center;
+
+}
+
+.reviews-container {
+    width: 1041px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.review-content-wrapper {
+    width: 425px;
+}
+
+.reviews-title {
+    font-family: 'Source Serif Pro';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    padding-bottom: 20px;
+
+}
+
+.review-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.review-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 169px;
+
+}
+
+.star-wrapper {
+    background-color: #1BB580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stars-sq {
+    background: url("images/star-white.svg") no-repeat;
+    width: 21px;
+    height: 21px;
+    padding-bottom: 20px;
+}
+
+/* advantages */
+.advantages-container {
+    width: 1041px;
+    margin: 0 auto;
+    color: #47475F;
+    padding-top: 105px;
+    padding-left: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-content {
+    width: 364px;
+}
+
+.advantages-desc {
+    line-height: 24px;
+    padding-top: 35px;
+    letter-spacing: -0.01em;
+}
+
+.advantages-desc-one {
+    padding-top: 25px;
+    width: 354px;
+    padding-bottom: 27px;
+}
+
+.advantages-link {
+    color: #47475F;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.play {
+    position: relative;
+    left: 252px;
+    top: -250px;
+    width: 108px;
+    height: 112px;
+    background: url("images/play-circle.png");
+    border: none;
+    cursor: pointer;
 }
