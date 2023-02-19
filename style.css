@@ -12,6 +12,7 @@ body {
     color: #000;
     background-color: #fff;
     width: 1561px;
+    margin: 0 auto;
 }
 
 ul {
@@ -235,11 +236,49 @@ label {
     font-weight: 400;
 }
 
-
-.order-input-place {
+.select-place {
     width: 296px;
-    background-image: url("images/place.svg");
-    background-position-y: 50%;
+}
+
+.select-place {
+    background: url("images/place.svg") no-repeat;
+}
+
+.order-input-day {
+    position: relative;
+    padding-left: 12px;
+}
+
+.order-input-day::-webkit-calendar-picker-indicator {
+    background: url("images/cal.svg") no-repeat;
+    position: absolute;
+    left: 10px;
+}
+
+input[type="date"] {
+    padding-left: 40px;
+}
+
+.order-input-day::placeholder {
+    background: url("images/cal.svg") no-repeat;
+    padding-left: 25px;
+}
+
+.order-input-time {
+    position: relative;
+    padding-left: 40px;
+}
+
+.order-input-time::-webkit-calendar-picker-indicator {
+    background: url("images/clock.svg") no-repeat;
+    position: absolute;
+    left: 5px;
+    bottom: 12px;
+}
+
+.order-input-number::placeholder {
+    background: url("images/numbers.svg") no-repeat;
+    padding-left: 25px;
 }
 
 .btn {
@@ -250,7 +289,9 @@ label {
     border-radius: 4px;
     width: 236px;
     height: 54px;
-    border-radius: 4px;
+    border: 1px solid #0D8587;
+    box-shadow: 0px 1px 2px rgba(30, 30, 32, 0.2), 0px 12px 24px rgba(39, 45, 77, 0.2);
+
 }
 
 /* offer */
